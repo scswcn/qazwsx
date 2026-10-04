@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 02 - xiaohe
   type: vless
   server: 217.217.254.126
@@ -30,7 +30,7 @@ proxies:
   client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 03 - xiaohe
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -39,20 +39,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 04 - xiaohe
-  type: vless
-  server: 139.162.27.96
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: free-server.techsonic.dev
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 05 - xiaohe
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -62,22 +48,29 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 06 - xiaohe
-  type: vless
-  server: 162.159.43.187
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- name: 🇸🇬 新加坡 (Singapore) 05 - xiaohe
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇬 新加坡 (Singapore) 06 - xiaohe
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 07 - xiaohe
   type: vmess
-  server: 149.88.23.202
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -87,7 +80,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 08 - xiaohe
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -96,26 +89,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 09 - xiaohe
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 10 - xiaohe
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 11 - xiaohe
   type: vless
   server: 217.217.254.126
   port: 2053
@@ -127,7 +100,40 @@ proxies:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
   client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 10 - xiaohe
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 11 - xiaohe
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬 新加坡 (Singapore) 12 - xiaohe
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 13 - xiaohe
   type: vless
   server: 217.217.254.126
   port: 2053
@@ -139,20 +145,6 @@ proxies:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 13 - xiaohe
-  type: vless
-  server: 141.193.213.20
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 14 - xiaohe
   type: vless
   server: 217.217.254.126
@@ -167,7 +159,7 @@ proxies:
   client-fingerprint: firefox
 - name: 🇸🇬 新加坡 (Singapore) 15 - xiaohe
   type: vmess
-  server: 149.88.23.207
+  server: 149.88.23.202
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -177,16 +169,6 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 16 - xiaohe
   type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 17 - xiaohe
-  type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
@@ -195,6 +177,19 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 17 - xiaohe
+  type: vless
+  server: 108.162.198.178
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇬 新加坡 (Singapore) 18 - xiaohe
   type: vmess
   server: ww11.levikogjgfdd.ir
@@ -206,30 +201,25 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 19 - xiaohe
-  type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 20 - xiaohe
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 9b0025a3-3a36-4915-b4e1-89c5cd65c9cb
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: onhit.shalana.shop
+- name: 🇸🇬 新加坡 (Singapore) 20 - xiaohe
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 21 - xiaohe
   type: vmess
   server: 149.88.23.207
@@ -242,6 +232,19 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 22 - xiaohe
   type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: 9b0025a3-3a36-4915-b4e1-89c5cd65c9cb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: onhit.shalana.shop
+- name: 🇸🇬 新加坡 (Singapore) 23 - xiaohe
+  type: vless
   server: 104.18.35.86
   port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
@@ -253,51 +256,49 @@ proxies:
     path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 23 - xiaohe
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 24 - xiaohe
   type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 25 - xiaohe
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 104.18.39.218
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇬 新加坡 (Singapore) 26 - xiaohe
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 172.64.32.108
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇬 新加坡 (Singapore) 27 - xiaohe
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -316,6 +317,16 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 29 - xiaohe
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 30 - xiaohe
   type: vless
   server: 217.217.254.126
   port: 2053
@@ -326,20 +337,10 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 30 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  client-fingerprint: firefox
 - name: 🇸🇬 新加坡 (Singapore) 31 - xiaohe
   type: vmess
-  server: 149.88.23.207
+  server: 149.88.23.202
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -359,29 +360,6 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 33 - xiaohe
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 34 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 35 - xiaohe
-  type: vless
   server: 104.18.35.86
   port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
@@ -393,7 +371,20 @@ proxies:
     path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 36 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 34 - xiaohe
+  type: vless
+  server: 172.64.229.170
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇬 新加坡 (Singapore) 35 - xiaohe
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -403,7 +394,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 37 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 36 - xiaohe
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -413,18 +404,26 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 38 - xiaohe
-  type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+- name: 🇸🇬 新加坡 (Singapore) 37 - xiaohe
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 38 - xiaohe
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 39 - xiaohe
   type: vmess
   server: 149.88.23.207
@@ -436,19 +435,9 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 40 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 41 - xiaohe
   type: vless
-  server: 104.18.34.14
-  port: 8080
+  server: 172.64.158.146
+  port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -458,9 +447,21 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇬 新加坡 (Singapore) 41 - xiaohe
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 42 - xiaohe
   type: vmess
-  server: 149.88.23.202
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -469,6 +470,26 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 43 - xiaohe
+  type: vless
+  server: 162.159.39.218
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇬 新加坡 (Singapore) 44 - xiaohe
+  type: ss
+  server: 139.180.220.175
+  port: 8388
+  cipher: aes-256-gcm
+  password: qpSevKaUXYQKvSjp
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 45 - xiaohe
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -478,27 +499,21 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 44 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 45 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 46 - xiaohe
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 47 - xiaohe
   type: vmess
   server: 149.88.23.202
   port: 18000
@@ -508,9 +523,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 47 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 48 - xiaohe
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -518,32 +533,16 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 48 - xiaohe
-  type: vless
-  server: 104.18.34.14
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇬 新加坡 (Singapore) 49 - xiaohe
-  type: vless
-  server: 104.18.35.86
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬 新加坡 (Singapore) 50 - xiaohe
   type: vless
   server: 217.217.254.126
@@ -558,30 +557,6 @@ proxies:
   client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 51 - xiaohe
   type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 52 - xiaohe
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 53 - xiaohe
-  type: vless
   server: 217.217.254.126
   port: 2053
   uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
@@ -592,67 +567,7 @@ proxies:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 54 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 55 - xiaohe
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 56 - xiaohe
-  type: vless
-  server: 172.64.154.8
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇬 新加坡 (Singapore) 57 - xiaohe
-  type: vless
-  server: 162.159.48.32
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇬 新加坡 (Singapore) 58 - xiaohe
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 59 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 52 - xiaohe
   type: vless
   server: 141.193.213.20
   port: 8443
@@ -666,17 +581,20 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 60 - xiaohe
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 53 - xiaohe
+  type: vless
+  server: 162.159.48.32
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 61 - xiaohe
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇬 新加坡 (Singapore) 54 - xiaohe
   type: vless
   server: 217.217.254.126
   port: 2053
@@ -687,8 +605,44 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 62 - xiaohe
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 55 - xiaohe
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 56 - xiaohe
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬 新加坡 (Singapore) 57 - xiaohe
+  type: vless
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬 新加坡 (Singapore) 58 - xiaohe
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -698,9 +652,58 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 59 - xiaohe
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 60 - xiaohe
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 61 - xiaohe
+  type: vless
+  server: 141.193.213.20
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 62 - xiaohe
+  type: vless
+  server: 162.159.24.131
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇬 新加坡 (Singapore) 63 - xiaohe
   type: vless
-  server: 172.64.32.108
+  server: 172.64.158.146
   port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -720,8 +723,8 @@ proxies:
   udp: true
 - name: 🇸🇬 新加坡 (Singapore) 65 - xiaohe
   type: vless
-  server: 162.159.0.169
-  port: 8880
+  server: 104.18.47.113
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
