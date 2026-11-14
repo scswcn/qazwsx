@@ -14,7 +14,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: xmfhlpy.com
 - name: 🇦🇹 AT 02 - xiaohe
   type: ss
   server: 152.53.1.57
@@ -39,7 +39,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xmfhlpy.com
+  servername: ''
 - name: 🇦🇹 AT 05 - xiaohe
   type: ss
   server: 82.110.60.9
